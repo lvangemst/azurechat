@@ -104,6 +104,7 @@ module resources 'resources.bicep' = {
     searchServiceSkuName: searchServiceSkuName
     storageServiceSku: storageServiceSku
     storageServiceImageContainerName: storageServiceImageContainerName
+    storageAccountName: storageAccountName
     location: location
   }
 }
