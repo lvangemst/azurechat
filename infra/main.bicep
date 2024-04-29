@@ -58,6 +58,7 @@ param searchServiceSkuName string = 'standard'
 // TODO: define good default Sku and settings for storage account
 param storageServiceSku object = { name: 'Standard_LRS' } 
 param storageServiceImageContainerName string = 'images'
+param storageAccountName string = ''
 
 param resourceGroupName string = ''
 
