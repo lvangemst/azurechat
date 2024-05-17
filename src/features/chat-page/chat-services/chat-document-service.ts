@@ -112,7 +112,7 @@ export const FindAllChatDocuments = async (
   try {
     const querySpec: SqlQuerySpec = {
       query:
-        "SELECT * FROM root r WHERE r.type=@type AND r.chatThreadId = @threadId AND r.isDeleted=@isDeleted",
+        "SELECT * FROM root r WHERE r.type=@type AND r.isDeleted=@isDeleted",
       parameters: [
         {
           name: "@type",
